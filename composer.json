@@ -1,0 +1,28 @@
+{
+    "name": "nelwhix/no_framework_php",
+    "description": "recreating my laravel blog-api in plain php",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Nelwhix\\NoFrameworkPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nelson Isioma",
+            "email": "nelsonisioma1@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "filp/whoops": "^2.14"
+    },
+    "require-dev": {
+        "pestphp/pest": "^1.22"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
